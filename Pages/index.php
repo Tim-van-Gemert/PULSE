@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="dark:bg-black bg-white w-screen justify-around flex flex-col ">
+    <nav class="flex flex-col  mt-14  ">
+        <div class="justify-around w-screen flex" >
+            <img class="dark:invert h-[50%] w-[50%] " src="../Media/PULSE__logo__1.png">
+        </div>
+        <div class="justify-around w-screen mt-4  flex" >
+        <h2 id="date" class="dark:text-white text-black  text-lg font-thin   " ></h2>
+        </div>
+    </nav>
+  
+</body>
+<script>
+    const date = new Date();
+let day = date.getDate();
+let month = date.getMonth() + 1;
+let year = date.getFullYear();
+
+// This arrangement can be altered based on how we want the date's format to appear.
+let currentDate = `${day}-${month}-${year}`;
+	document.getElementById("date").innerHTML = currentDate;
+</script>
+</html>
