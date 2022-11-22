@@ -1,6 +1,6 @@
     <span class="fixed bottom-0 w-screen z-50">
-        <div class="bg-white dark:bg-black    pb-8 ">
-            <div class="flex items-center pt-3 pb-4  justify-center">
+        <div class="bg-white dark:bg-black    pb-6 ">
+            <div class="flex items-center pt-1 pb-3  justify-center">
                 <div class="border-t-2 dark:text-white  text-slate-300 w-64"></div>
             </div>
 
