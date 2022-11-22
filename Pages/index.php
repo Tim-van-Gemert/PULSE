@@ -8,7 +8,7 @@
 
 </head>
 
-<body class="dark:bg-black bg-white mt-10 overflow-hidden">
+<body class="dark:bg-black bg-white mt-14 overflow-hidden">
 
     <nav class="flex flex-col ">
         <div class="justify-around w-screen flex">
@@ -21,7 +21,7 @@
     <span class="flex items-center py-3  justify-center">
         <div class="border-t-2 dark:text-white  text-slate-300 w-64"></div>
     </span>
-    <h2 class="mx-5 mt-2  dark:text-white text-3xl text-black  ">Quick stats</h2>
+    <h2 class="mx-5 mt-1  dark:text-white text-3xl text-black  ">Quick stats</h2>
     <div class="bg-[#f9f3f3] mx-5 py-2 mt-4 rounded-xl   dark:bg-slate-900   ">
         <div class="ml-5 flex flex-row  gap-6">
             <div>
