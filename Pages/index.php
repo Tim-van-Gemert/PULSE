@@ -6,7 +6,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="dark:bg-black bg-white w-screen justify-around flex flex-col ">
+<body class="dark:bg-black bg-white h-[100vh]">
 
     <nav class="flex flex-col  mt-14  ">
         <div class="justify-around w-screen flex" >
@@ -16,6 +16,15 @@
         <h2 id="date" class="dark:text-white text-black  text-lg font-thin   " ></h2>
         </div>
     </nav>
+    <span class="flex items-center py-3  justify-center">
+        <div class="border-t-2 dark:text-white  text-slate-300 w-64"></div>
+    </span>
+        <?php 
+    include('footer.php')
+    ?>
+    </footer>
+    
+
 </body>
 <script>
 
