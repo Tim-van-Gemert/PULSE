@@ -6,7 +6,7 @@
 
             <div class="flex justify-around content-center">
                 <div class="flex-col flex items-center justify-center">
-                    <img src="../Media/Footer/Tapbar_Icon-1.png" class=" shadow-white  ">
+                    <img src="../Media/Footer/Tapbar_Icon-1.png" class="">
                     <h5 class="items-center text-center text-sm dark:text-white text-slate-500 ">Home</h5>
                 </div>
 
