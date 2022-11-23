@@ -42,9 +42,9 @@
         </div>
 
         <div>
-            <img src="../Media/Charts/work capacity 1.png" class="myDonuts  w-36 h-auto">
-            <img src="../Media/Charts/PULSE index 1.png" class="myDonuts hidden w-36 h-auto">
-            <img src="../Media/Charts/donut.png" class="myDonuts hidden w-36 h-auto ">
+            <img src="../Media/Charts/work capacity 1.png" class="myDonuts  w-36 h-36">
+            <img src="../Media/Charts/PULSE index 1.png" class="myDonuts hidden w-36 h-36">
+            <img src="../Media/Charts/donut.png" class="myDonuts hidden w-36 h-36 ">
             <div class="items-center justify-center flex pt-6">
                 <span onclick="currentDonut(1)" id="firstDots" class="dotDonuts bg-zinc-800 rounded-full w-2 h-2 mx-2 "></span>
                 <span onclick="currentDonut(2)" class="dotDonuts bg-zinc-800 rounded-full w-2 h-2 mx-2"></span>
@@ -54,14 +54,14 @@
         
     </span>
     
-    <span class="flex pl-10 pr-5 my-10 mx-5 py-6  items-center justify-between rounded-lg ">
+    <span class="flex pl-10 pr-5 my-10 mx-5 py-6  items-center justify-between rounded-lg">
         <div class="">
             <h4 class=" font-bold leading-5 text-xl mb-1" >PULSE <br> Index</h4>
             <h5 class=" w-28 font-bold  text-sm text-slate-500 leading-3 ">Muscles/Nerves <br> activity and fake <br> data and stuff</h5>
         </div>
         <div>
-            <img src="../Media/Charts/column_chart.png" class=" myColumns w-36 h-auto">
-            <img src="../Media/Charts/column_chart_2.png" class=" myColumns hidden w-36 h-auto">
+            <img src="../Media/Charts/column_chart.png" class=" myColumns w-36 h-36">
+            <img src="../Media/Charts/column_chart_2.png" class=" myColumns hidden w-36 h-36">
             <div class="items-center justify-center flex pt-6">
                 <span onclick="currentColumns(1)" id="firstDots" class="dotColumns bg-zinc-800 rounded-full w-2 h-2 mx-2"></span>
                 <span onclick="currentColumns(2)" class="dotColumns bg-zinc-800 rounded-full w-2 h-2 mx-2"></span>
