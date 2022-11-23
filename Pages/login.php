@@ -36,7 +36,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 <head>
     <meta charset="UTF-8">
-    <link rel="manifest" href="manifest.json" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
 
@@ -59,14 +58,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                     </div>
                     <div class="flex flex-row  justify-between gap-8 text-gray-400 mt-2 hover:underline hover:text-gray-100">
                         <a href="#">Forgot your password?</a>
-                        <a href="#">Register</a>
+                        <a href="register.php">Register</a>
                     </div>
                 </form>
                 </div>
     <footer>
         <?php include('footer.php') ?>
         <script src="date.js"></script>
-        <script> if ('serviceWorker' in navigator) { navigator.serviceWorker.register('/sw.js'); } </script>
     </footer>
 </body>
 

@@ -1,10 +1,6 @@
 <?php
 $host = 'localhost';
-<<<<<<< HEAD
 $db   = 'pulse';
-=======
-$db   = 'PULSEDB';
->>>>>>> 3c552b2d558b51d9f54888741132d1a071ada966
 $user = 'root';
 $pass = '';
 $charset = 'utf8mb4';
