@@ -69,9 +69,10 @@
             <?php
             include('footer.php')
             ?>
+            <script src="date.js"></script>
         </footer>
 
-        <script src="date.js"></script>
+        
 </body>
 
 
