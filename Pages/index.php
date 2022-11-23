@@ -48,15 +48,15 @@
                 <strong>Level:</strong> Semi-professional
             </p>
             <div class="flex flex-row justify-center mt-3 gap-2 h-[10vh] " >
-                <div class="bg-slate-900 w-[30%] flex flex-col justify-evenly text-center   text-white  rounded-xl">
+                <div class="bg-slate-600 dark:bg-transparent w-[30%] flex flex-col justify-evenly text-center   text-white  rounded-xl">
                 <h2 id="dateyesterdaynum"></h2>
                 <h2 id="dateyesterday"></h2>
                 </div>
-                <div class="bg-slate-900 dark:bg-gradient-to-r dark:from-yellow-400 dark:to-pink-600 w-[30%]  flex flex-col justify-evenly text-center   text-white  rounded-xl">
+                <div class="bg-slate-900  dark:bg-gradient-to-r dark:from-yellow-400 dark:to-pink-600 w-[30%]  flex flex-col justify-evenly text-center   text-white  rounded-xl">
                 <h2 id="datetodaynum"></h2>
                 <h2 id="datetoday"></h2>
                 </div>
-                <div class="bg-slate-900 w-[30%]  flex flex-col justify-evenly text-center   text-white  rounded-xl ">
+                <div class="bg-slate-600 dark:bg-transparent w-[30%]  flex flex-col justify-evenly text-center   text-white  rounded-xl ">
                 <h2 id="datetomorrownum"></h2>
                 <h2 id="datetomorrow"></h2>
                 
