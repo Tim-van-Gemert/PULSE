@@ -17,10 +17,15 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             if ($count == 1 && !empty($row)) {
                 $username = $row['first_name'] . ' ' . $row['last_name'];
                 $userId = $row['id'];
-                $_SESSION['user']['name'] = $username;
-                $_SESSION['user']['id'] = $userId;
-                header('Location: index.php');
+                $email = $row['email'];
+                $age = $row['age'];
+                $_SESSION['username'] = $username;
+                $_SESSION['id'] = $userId;
+                $_SESSION['email'] = $email;
+                $_SESSION['age'] = $age;
+                header('Location: profile.php');
             } else {
+                header('Location: login.php');
                 echo "<script>alert('Verkeerd gebruikersnaam en/of wachtwoord!');</script>";
             }
         }

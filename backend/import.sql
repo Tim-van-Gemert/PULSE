@@ -7,5 +7,3 @@ create table `user` (
     `password` varchar(255) NOT NULL,
     PRIMARY KEY (id)
     );
-    
-drop table `user`;
