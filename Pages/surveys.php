@@ -19,7 +19,7 @@
             <h5 class="text-2xl font-bold font-mono pt-3 pl-3">RPE Survey</h5>
             <p class="pt-3 pl-3">Let us know how your workout went.</p>
 
-            <a href="#" class="w-32 h-14">
+            <a href="rpe-survey.php" class="w-32 h-14">
                 <div class="flex justify-center items-center ml-24 mt-5 w-36 h-14 bg-black rounded-xl">
                     <input type="image" class="w-11 h-11" src="../Media/check-icon.png">
                 </div>
@@ -33,7 +33,7 @@
         <div class="drop-shadow-lg rounded-lg w-55 h-64 bg-slate-100 rounded-2xl mt-6">
             <h5 class="text-2xl font-bold font-mono pt-3 pl-3">Mental Health Survey</h5>
             <p class="pt-3 pl-3">Let us know how you have been feeling <br> lately.</p>
-            <a href="#" class="w-32 h-14">
+            <a href="mental-health-survey.php" class="w-32 h-14">
                 <div class="flex justify-center items-center ml-24 mt-0 w-36 h-14 bg-black rounded-xl">
                     <input type="button" value="Get started" class="text-white font-serif text-xl font-bold font-mono">
                 </div>
