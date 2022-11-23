@@ -1,0 +1,11 @@
+{
+    "name": "Pulse",
+    "start_url": "/",
+    "icons": [
+        "https://img.icons8.com/ios-glyphs/512/cursor-in-window.png"
+    ],
+    "theme_color": "#000000",
+    "background_color": "#FFFFFF",
+    "display": "fullscreen",
+    "orientation": "portrait"
+}
