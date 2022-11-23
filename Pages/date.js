@@ -1,9 +1,9 @@
-const a = new Date();
-const days = ["Zondag", "Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrijdag", "Zaterdag"];
-let dayName = days[a.getDay()];
+const date = new Date();
+const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+let dayName = days[date.getDay()];
 
 
-document.getElementById("date").innerHTML = `${dayName} ${a.getDay()} ${a.toLocaleString('default', { month: 'short' })} ${a.getFullYear()}`;
+document.getElementById("date").innerHTML = `${dayName} ${date.getDay()} ${date.toLocaleString('default', { month: 'short' })} ${date.getFullYear()}`;
 
 let dayOfWeek = date.getDay();
 let dayOfMonth = date.getDate();
