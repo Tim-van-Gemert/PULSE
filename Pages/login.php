@@ -1,8 +1,9 @@
 <?php
 session_start();
 include ("host.php");
+ob_start();
 
-if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+if (isset($_POST['submit'])) {
     $email = trim($_POST['email']);
     $password = trim($_POST['password']);
     if ($email != "" && $password != "") {
@@ -15,14 +16,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $rows = $stmt->fetchAll();
         foreach ($rows as $row) {
             if ($count == 1 && !empty($row)) {
-                $username = $row['first_name'] . ' ' . $row['last_name'];
                 $userId = $row['id'];
-                $email = $row['email'];
-                $age = $row['age'];
-                $_SESSION['username'] = $username;
                 $_SESSION['id'] = $userId;
-                $_SESSION['email'] = $email;
-                $_SESSION['age'] = $age;
                 header('Location: index.php');
             } else {
                 echo "<script>alert('Verkeerd gebruikersnaam en/of wachtwoord!');</script>";
@@ -38,10 +33,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="apple-touch-icon" sizes="180x180" href="../Media/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../Media/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../Media/favicon/favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
 
 </head>
 
@@ -58,16 +49,22 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                         <input class="block rounded-lg w-full p-4 text-lg bg-white" type="password" name="password" id="password" placeholder="Password">
                     </div>
                     <div class="px-4 pb-2 pt-4">
-                        <button type="submit" class="uppercase block w-full p-4 text-lg text-white dark:text-slate-900  rounded-full dark:bg-white bg-slate-900 hover:slate-600 focus:outline-none">sign in</button>
+                        <button type="submit" name='submit' class="uppercase block w-full p-4 text-lg text-white dark:text-slate-900  rounded-full dark:bg-white bg-slate-900 hover:slate-600 focus:outline-none">sign in</button>
                     </div>
                     <div class="flex flex-row  justify-between gap-8 text-gray-400 mt-2 hover:underline hover:text-gray-100">
-                        <a href="index.php">Forgot your password?</a>
+                        <a href="#">Forgot your password?</a>
                         <a href="register.php">Register</a>
                     </div>
                 </form>
                 </div>
     <footer>
+        <?php include('footer.php') ?>
+        <script src="date.js"></script>
     </footer>
 </body>
 
 </html>
+
+<?php
+ob_end_flush();
+?>

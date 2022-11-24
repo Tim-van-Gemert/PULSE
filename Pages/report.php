@@ -1,3 +1,10 @@
+<?php
+session_start();
+if (empty($_SESSION['id'])) {
+header("Location: login.php");
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +18,7 @@
     <span class="sticky top-0 z-50 bg-white" >
         <img src="../Media/iPhone 13.png" class="w12 bg-white dark:bg-black">
     </span>
-    <span class="flex px-10 pt-8 pb-2 justify-between ">
+    <span class="flex px-10 pt-8 pb-2 items-center justify-between ">
         <div>
             <h1 class="text-4xl font-extrabold leading-8 dark:text-white">Dave<br>Mason</h1>
         </div>
@@ -27,23 +34,28 @@
     <span class="flex px-6 py-3 items-center mx-5 justify-between rounded-lg ">
         <div>
             <h4 class=" font-bold text-center leading-4 dark:text-white">TRACK</h4>
-            <h5 class=" font-bold text-center text-sm text-[#848484] leading-3 ">Muscles/Nerves activity<h5>
+            <h5 class=" font-bold text-center text-sm text-slate-500 leading-3 ">Muscles/Nerves activity<h5>
         </div>
         <div>
             <h4 class="font-bold text-center leading-4 dark:text-white">WORK CAPACITY</h4>
-            <h5 class="font-bold text-center text-sm text-[#848484] leading-3 "> Acceptable: 92%</h5>
+            <h5 class="font-bold text-center text-sm text-slate-500 leading-3 "> Acceptable: 92%</h5>
         </div>
     </span>
     
     <span class="flex pl-10 pr-5 my-10 mx-5  items-center justify-between rounded-lg ">
         <div>
             <h4 class="font-bold leading-5 text-xl mb-1 dark:text-white" >Work <br> Capacity</h4>
-            <h5 class=" w-28 font-bold  text-sm text-[#848484] leading-3">This is a fake text with fake data and stuff</h5>
+            <h5 class=" w-28 font-bold  text-sm text-slate-500 leading-3">This is a fake text with fake data and stuff</h5>
         </div>
 
         <div>
+<<<<<<< HEAD
             <img src="../Media/Charts/chart1.png" class="myDonuts  w-36 h-36">
             <img src="../Media/Charts/PULSE_index_1.png" class="myDonuts hidden w-36 h-36">
+=======
+            <img src="../Media/Charts/work capacity 1.png" class="myDonuts  w-36 h-36">
+            <img src="../Media/Charts/PULSE index 1.png" class="myDonuts hidden w-36 h-36">
+>>>>>>> 9d75284e1477579e0197a07c75fd7cbbaf701209
             <img src="../Media/Charts/donut.png" class="myDonuts hidden w-36 h-36 ">
             <div class="items-center justify-center flex pt-6">
                 <span onclick="currentDonut(1)" id="firstDots" class="dotDonuts bg-zinc-800 rounded-full w-2 h-2 mx-2 "></span>
@@ -57,7 +69,7 @@
     <span class="flex pl-10 pr-5 my-10 mx-5 py-6  items-center justify-between rounded-lg">
         <div class="">
             <h4 class=" font-bold leading-5 text-xl mb-1 dark:text-white" >PULSE <br> Index</h4>
-            <h5 class=" w-28 font-bold  text-sm text-[#848484] leading-3 ">Muscles/Nerves <br> activity and fake <br> data and stuff</h5>
+            <h5 class=" w-28 font-bold  text-sm text-slate-500 leading-3 ">Muscles/Nerves <br> activity and fake <br> data and stuff</h5>
         </div>
         <div>
             <img src="../Media/Charts/column_chart.png" class=" myColumns w-36 h-36">
