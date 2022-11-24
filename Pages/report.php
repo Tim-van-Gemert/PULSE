@@ -9,7 +9,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="dark:bg-black">
-    <span class="flex px-10 pt-2 pb-2 items-center justify-between ">
+<?php include('header.php') ?>
+    <span class="flex px-10 pt-0 pb-2 items-center justify-between ">
         <div>
             <h1 class="text-4xl font-extrabold leading-8 dark:text-white">Dave<br>Mason</h1>
         </div>

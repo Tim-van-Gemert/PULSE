@@ -17,18 +17,9 @@ session_start();
 </head>
 
 <body class="dark:bg-black bg-white mt-2 overflow-hidden ">
-    <nav class="flex flex-row mb-8 ">
-        <div class="ml-5 w-screen flex flex-row">
-            <img class="dark:invert h-5 w-auto " src="../Media/PULSE__logo__1.png">
-           
-        </div>
-        <div class=" w-screen  mb-2 flex">
-            <h2 id="date" class="dark:text-white text-black  ml-6 text-lg font-thin   "></h2>
-        </div>
-    </nav>
-
+<?php include('header.php') ?>
     <h2 class="mx-5 mt-1  dark:text-white text-3xl text-black  ">Quick stats</h2>
-    <div class="bg-[#f9f3f3] mx-5 py-2 mt-4 rounded-xl   dark:bg-slate-900   ">
+    <div class="bg-[#f9f3f3] mx-5 py-2 mt-2 rounded-xl   dark:bg-slate-900   ">
         <div class="ml-5 flex flex-row  gap-6">
             <div>
                 <h2 class="dark:text-white text-xl  text-black">Over reaching score</h2>
