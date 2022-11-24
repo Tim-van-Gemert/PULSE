@@ -1,7 +1,7 @@
 {
-    "start_url": "/",
+    "start_url": "/PULSE/Pages/",
     "name": "pulse",
-    "scope": "/",
+    "scope": "/PULSE/Pages/",
     "short_name": "pulse",
     "icons": [
         {
