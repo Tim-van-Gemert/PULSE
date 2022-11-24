@@ -13,36 +13,23 @@
 
 <body class="dark:bg-black dark:text-white bg-white mt-2 overflow-hidden flex justify-center flex-col">
     <?php include('header.php') ?>
-        <div class="rounded-lg w-55 h-64 bg-slate-100 mx-5  dark:bg-slate-900">
-            <h5 class="text-2xl font-bold font-mono pt-3 pl-3">RPE Survey</h5>
-            <p class="pt-3 pl-3">Let us know how your workout went.</p>
-
-            <a href="rpe-survey.php" class="w-32 h-14">
-                <div class="flex justify-center items-center ml-24 mt-5 w-36 h-14 bg-black rounded-xl">
-                    <input type="image" class="w-11 h-11" src="../Media/check-icon.png">
-                </div>
+    <h2 class=" mx-5 mt-2 dark:text-white text-3xl text-black ">RPE Survey</h2>
+    <div class=" bg-[#f9f3f3] mx-5 px-4 py-2 mt-4 rounded-xl flex flex-col justify-evenly dark:bg-slate-900 ">
+        <p class=" text-base dark:text-white ">You have attained high levels of over-reaching. Your coach suggests 2-3 days off to let your body & mind recover. Check out the full report for a detailed view.</p>
+        <div class=" flex flex-col justify-around mt-3 bg-slate-900 pt-2 pb-1 px-3 rounded-lg">
+            <a class="text-lg text-white font-bold text-center   " >
+            ✅ Finished: 4 hours ago!
             </a>
-            <div class="pt-4 pl-3">
-                <p class="font-bold dark:text-white text-slate-700">Duration: <span class="font-normal">30/40 seconds</span></p>
-                <p class="font-bold dark:text-white text-slate-700">Regularity: <span class="font-normal">after each training session</span></p>
-                <p class="font-bold dark:text-white text-slate-700">Survey reminder notification: <span class="font-normal">ON</span></p>
-            </div>
-        </div>
-        <div class=" rounded-lg w-55 h-64 mx-5  bg-slate-100 dark:bg-slate-900  mt-6">
-            <h5 class="text-2xl font-bold font-mono pt-3 pl-3">Mental Health Survey</h5>
-            <p class="pt-3 pl-3">Let us know how you have been feeling <br> lately.</p>
-            <a href="mental-health-survey.php" class="w-32 h-14">
-                <div class="flex justify-center items-center ml-24 mt-0 w-36 h-14 bg-black rounded-xl">
-                    <input type="button" value="Get started" class="text-white font-serif text-xl font-bold">
-                </div>
-            </a>
-            <div class="pt-4 pl-3">
-                <p class="font-bold dark:text-white text-slate-700">Duration: <span class="font-normal">30/40 seconds</span></p>
-                <p class="font-bold dark:text-white text-slate-700">Regularity: <span class="font-normal">after each training session</span></p>
-                <p class="font-bold dark:text-white text-slate-700">Survey reminder notification: <span class="font-normal">ON</span></p>
-            </div>
         </div>
     </div>
+    <h2 class=" mx-5 mt-2 dark:text-white text-3xl text-black ">Mental Health Survey</h2>
+    <div class=" bg-[#f9f3f3] mx-5 px-4 py-2 mt-4 rounded-xl flex flex-col justify-evenly dark:bg-slate-900 ">
+        <p class=" text-base dark:text-white ">You have attained high levels of over-reaching. Your coach suggests 2-3 days off to let your body & mind recover. Check out the full report for a detailed view.</p>
+        <div class=" flex flex-col justify-around mt-3 bg-slate-900 pt-2 pb-1 px-3 rounded-lg">
+            <a href="surveys.php"  class="flex flex-row text-white text-sm dark:text-transparent dark:bg-clip-text  dark:bg-gradient-to-r dark:from-yellow-400 dark:to-pink-600 "><img class="w-7 mr-2 -mt-1 " src="../Media/circle.grid.cross.fill.svg"> Complete Mental Health Survey </a>
+        </div>
+    </div>
+    <h2 class=" mx-5 mt-16 dark:text-white text-3xl text-black text-center ">Don't forget to breathe today!🧘‍♂️</h2>
 
     <?php
     include('footer.php')

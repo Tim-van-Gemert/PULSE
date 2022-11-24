@@ -1,9 +1,9 @@
-let date = new Date();
-let day = date.toDateString("en-US", {
-	weekday: "long",
-	month: "long",
-});
-document.getElementById("date").innerHTML = day;
+const date = new Date();
+const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+let dayName = days[date.getDay()];
+
+
+document.getElementById("date").innerHTML = `${dayName} ${date.getDate('default', { month: 'short' })} ${date.getFullYear()}`;
 
 let dayOfWeek = date.getDay();
 let dayOfMonth = date.getDate();
@@ -41,4 +41,4 @@ switch (dayOfWeek) {
 
 document.getElementById("dateyesterdaynum").innerHTML = dayOfMonth - 1;
 document.getElementById("datetodaynum").innerHTML = dayOfMonth;
-document.getElementById("datetomorrownum").innerHTML = dayOfMonth +1;
+document.getElementById("datetomorrownum").innerHTML = dayOfMonth + 1;
