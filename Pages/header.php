@@ -1,4 +1,4 @@
-<nav class="flex flex-row mb-8 ">
+<nav class="flex flex-row mb-8 mt-8 ">
         <div class="ml-5 w-screen flex flex-row">
             <img href="index.php"  class="dark:invert h-5 w-auto " src="../Media/PULSE__logo__1.png">
         </div>

@@ -11,7 +11,7 @@
     <script src="date.js" defer></script>
 </head>
 
-<body class="dark:bg-black dark:text-white bg-white mt-2 overflow-hidden flex justify-center flex-col">
+<body class="dark:bg-black dark:text-white bg-white overflow-hidden flex justify-center flex-col">
     <?php include('header.php') ?>
     <h2 class=" mx-5 mt-2 dark:text-white text-3xl text-black ">RPE Survey</h2>
     <div class=" bg-[#f9f3f3] mx-5 px-4 py-2 mt-4 rounded-xl flex flex-col justify-evenly dark:bg-slate-900 ">

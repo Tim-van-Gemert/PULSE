@@ -10,7 +10,7 @@
 </head>
 <body class="dark:bg-black mt-2">
     <?php include('header.php') ?>
-    <span class="flex px-10 mt-2 pb-2 items-center justify-between ">
+    <span class="flex px-10 pb-2 items-center -mt-5 justify-between ">
         <div>
             <h1 class="text-4xl font-extrabold leading-8 dark:text-white">Dave<br>Mason</h1>
         </div>
