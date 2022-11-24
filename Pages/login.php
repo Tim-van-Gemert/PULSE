@@ -61,7 +61,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                         <button type="submit" class="uppercase block w-full p-4 text-lg text-white dark:text-slate-900  rounded-full dark:bg-white bg-slate-900 hover:slate-600 focus:outline-none">sign in</button>
                     </div>
                     <div class="flex flex-row  justify-between gap-8 text-gray-400 mt-2 hover:underline hover:text-gray-100">
-                        <a href="#">Forgot your password?</a>
+                        <a href="index.php">Forgot your password?</a>
                         <a href="register.php">Register</a>
                     </div>
                 </form>

@@ -5,19 +5,28 @@
             </div>
 
             <div class="flex justify-around content-center">
-                <div class="flex-col flex items-center justify-center">
-                    <img src="../Media/Footer/Tapbar_Icon-1.png" class="">
-                    <h5 class="items-center text-center text-sm dark:text-white text-slate-500 ">Home</h5>
+                <div  href="index.php" class="flex-col flex items-center justify-center">
+                    <a href="index.php">
+                        <img src="../Media/Footer/Tapbar_Icon-1.png" class="">
+                        <h5 class="items-center text-center text-sm dark:text-white text-slate-500 ">Home</h5>
+                    </a>
+                    
                 </div>
 
-                <div class="flex-col flex items-center justify-center">
-                    <img src="../Media/Footer/circle.grid.cross.fill.png" class= "items-center">
+                <div  class="flex-col flex items-center justify-center">
+                    <a href="survey.php" >
+                        <img src="../Media/Footer/circle.grid.cross.fill.png" class="pl-2 ">
                     <h5 class="items-center text-center text-sm dark:text-white text-slate-500 ">Surveys</h5>
+                    </a>
+                    
                 </div>
 
-                <div class="flex-col flex items-center justify-center">
-                    <img src="../Media/Footer/Tapbar_Icon.png" class="">
+                <div href="report.php" class="flex-col flex items-center justify-center">
+                    <a href="report.php" >
+                        <img src="../Media/Footer/Tapbar_Icon.png" class="">
                     <h5 class="items-center text-center text-sm dark:text-white text-slate-500 ">Report</h5>
+                    </a>
+                    
                 </div>
             </div>
         </div>

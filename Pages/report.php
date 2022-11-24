@@ -8,10 +8,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="dark:bg-black">
-    <span class="sticky top-0 z-50 bg-white" >
-        <img src="../Media/iPhone 13.png" class="w12 bg-white dark:bg-black">
-    </span>
-    <span class="flex px-10 pt-8 pb-2 items-center justify-between ">
+    <span class="flex px-10 pt-2 pb-2 items-center justify-between ">
         <div>
             <h1 class="text-4xl font-extrabold leading-8 dark:text-white">Dave<br>Mason</h1>
         </div>
@@ -42,13 +39,8 @@
         </div>
 
         <div>
-<<<<<<< HEAD
             <img src="../Media/Charts/chart1.png" class="myDonuts  w-36 h-36">
             <img src="../Media/Charts/PULSE_index_1.png" class="myDonuts hidden w-36 h-36">
-=======
-            <img src="../Media/Charts/work capacity 1.png" class="myDonuts  w-36 h-36">
-            <img src="../Media/Charts/PULSE index 1.png" class="myDonuts hidden w-36 h-36">
->>>>>>> 9d75284e1477579e0197a07c75fd7cbbaf701209
             <img src="../Media/Charts/donut.png" class="myDonuts hidden w-36 h-36 ">
             <div class="items-center justify-center flex pt-6">
                 <span onclick="currentDonut(1)" id="firstDots" class="dotDonuts bg-zinc-800 rounded-full w-2 h-2 mx-2 "></span>

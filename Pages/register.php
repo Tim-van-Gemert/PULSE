@@ -16,32 +16,35 @@ ob_start();
     <link rel="manifest" href="site.webmanifest">
 </head>
 
-<body class="dark:bg-black bg-white mt-14 mb-28">
+<body class="dark:bg-black bg-white mt-14 mb-2 overflow-hidden">
     <?php include('header.php') ?>
-    <h2 class="mx-5 mt-14 dark:text-white text-3xl text-black  ">Login</h2>
-    <div class="bg-[#f9f3f3] mx-5 py-2 rounded-xl   dark:bg-slate-900   ">
+    <h2 class="mx-5 mt-14 dark:text-white text-3xl text-black  ">Register</h2>
+    <div class="bg-[#f9f3f3] mx-5 py-2 rounded-xl   dark:bg-slate-900">
 
-        <form method="POST" class="sm:w-2/3 w-full px-4 lg:px-0 mx-auto">
-            <div class="pb-2 pt-4">
+        <form method="POST" class="sm:w-2/3 flex flex-col gap-2  w-full px-4 lg:px-0 mx-auto">
+            <div class=" ">
                 <label name="name" class="mx-2 mt-28 dark:text-white text-1xl text-black">Name:</label>
                 <input class="block rounded-lg w-full p-4 text-lg bg-white" type="text" placeholder="name" name="name">
             </div>
-            <div class="pb-2  pt-4">
-                <label name="gender" class="mx-2 mt-28 dark:text-white text-1xl text-black">Gender:</label>
-                <select class="block rounded-lg w-full p-4 text-lg bg-white" name="gender">
-                    <option value="Man">Man</option>
-                    <option value="Vrouw">Vrouw</option>
-                </select>
+
+            <div class=" flex gap-5 flex-row">
+                <div ">
+                    <label name=" gender" class="mx-2 dark:text-white text-1xl text-black">Gender:</label>
+                    <select class=" rounded-lg w-full h-14  text-lg bg-white" name="gender">
+                        <option value="Man">Man</option>
+                        <option value="Vrouw">Vrouw</option>
+                    </select>
+                </div>
+                <div>
+                    <label name="age" class="mx-2 mt-28 dark:text-white text-1xl text-black">Age:</label>
+                    <input class="block rounded-lg w-full h-14  p-4 text-lg bg-white" type="number" placeholder="age" name="age">
+                </div>
             </div>
-            <div class="pb-2  pt-4">
-                <label name="age" class="mx-2 mt-28 dark:text-white text-1xl text-black">Age:</label>
-                <input class="block rounded-lg w-full p-4 text-lg bg-white" type="number" placeholder="age" name="age">
-            </div>
-            <div class="pb-2  pt-4">
+            <div>
                 <label name="email" class="mx-2 mt-28 dark:text-white text-1xl text-black">Email:</label>
                 <input class="block rounded-lg w-full p-4 text-lg bg-white" type="email" placeholder="email" name="email">
             </div>
-            <div class="pb-2  pt-4">
+            <div>
                 <label name="password" class="mx-2 mt-28 dark:text-white text-1xl text-black">Password:</label>
                 <input class="block rounded-lg w-full p-4 text-lg bg-white" type="password" placeholder="password" name="password">
                 <div class="px-4 pb-2 pt-4">
@@ -54,7 +57,7 @@ ob_start();
         </form>
     </div>
     <footer>
-        <?php include('footer.php') ?>
+
     </footer>
     <div>
         <?php

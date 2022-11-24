@@ -1,8 +1,6 @@
 <?php
 session_start();
-if (empty($_SESSION['user'])) {
-    header("Location: login.php");
-} ?>
+?>
 <!doctype html>
 <html>
 
@@ -16,8 +14,7 @@ if (empty($_SESSION['user'])) {
     <link rel="manifest" href="site.webmanifest">
 </head>
 
-<body class="dark:bg-black bg-white mt-14 overflow-hidden">
-
+<body class="dark:bg-black bg-white mt-2 overflow-hidden">
     <nav class="flex flex-col ">
         <div class="justify-around w-screen flex">
             <img class="dark:invert h-[50%] w-[50%] " src="../Media/PULSE__logo__1.png">
