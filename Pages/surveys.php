@@ -11,9 +11,9 @@
     <script src="date.js" defer></script>
 </head>
 
-<body class="dark:bg-black bg-white mt-2 overflow-hidden px-5  flex justify-center flex-col">
+<body class="dark:bg-black dark:text-white bg-white mt-2 overflow-hidden flex justify-center flex-col">
     <?php include('header.php') ?>
-        <div class="rounded-lg w-55 h-64 bg-slate-100 dark:bg-slate-900">
+        <div class="rounded-lg w-55 h-64 bg-slate-100 mx-5  dark:bg-slate-900">
             <h5 class="text-2xl font-bold font-mono pt-3 pl-3">RPE Survey</h5>
             <p class="pt-3 pl-3">Let us know how your workout went.</p>
 
@@ -28,7 +28,7 @@
                 <p class="font-bold dark:text-white text-slate-700">Survey reminder notification: <span class="font-normal">ON</span></p>
             </div>
         </div>
-        <div class=" rounded-lg w-55 h-64 bg-slate-100 dark:bg-slate-900  mt-6">
+        <div class=" rounded-lg w-55 h-64 mx-5  bg-slate-100 dark:bg-slate-900  mt-6">
             <h5 class="text-2xl font-bold font-mono pt-3 pl-3">Mental Health Survey</h5>
             <p class="pt-3 pl-3">Let us know how you have been feeling <br> lately.</p>
             <a href="mental-health-survey.php" class="w-32 h-14">
@@ -47,7 +47,6 @@
     <?php
     include('footer.php')
     ?>
-    </footer>
 </body>
 
 </html>

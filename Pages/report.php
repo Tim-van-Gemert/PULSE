@@ -8,9 +8,9 @@
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="dark:bg-black">
-<?php include('header.php') ?>
-    <span class="flex px-10 pt-0 pb-2 items-center justify-between ">
+<body class="dark:bg-black mt-2  ">
+<?php include('header.php') ?> 
+    <span class="flex px-10 pt-0 pb-2 -mt-4 items-center justify-between ">
         <div>
             <h1 class="text-4xl font-extrabold leading-8 dark:text-white">Dave<br>Mason</h1>
         </div>

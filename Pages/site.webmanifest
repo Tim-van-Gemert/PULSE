@@ -15,7 +15,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "white",
+    "theme_color": "black",
     "display": "fullscreen",
     "orientation": "portrait"
 
