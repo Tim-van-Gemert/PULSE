@@ -23,7 +23,7 @@ header("Location: login.php");
             <h1 class="text-4xl font-extrabold leading-8 dark:text-white">Dave<br>Mason</h1>
         </div>
         <div class="items-center ">
-            <img src="../Media/picprofile-round-1.png" class="">
+            <img src="../Media/picprofile-round-1.png"  onclick="location.href='./usersettings.php'" class="">
         </div>
     </span>
 
@@ -66,7 +66,7 @@ header("Location: login.php");
         
     </span>
     
-    <span class="flex pl-10 pr-5 my-10 mx-5 py-6  items-center justify-between rounded-lg">
+    <span class="flex pl-10 pr-5 my-10 mx-5 items-center justify-between rounded-lg">
         <div class="">
             <h4 class=" font-bold leading-5 text-xl mb-1 dark:text-white" >PULSE <br> Index</h4>
             <h5 class=" w-28 font-bold  text-sm text-slate-500 leading-3 ">Muscles/Nerves <br> activity and fake <br> data and stuff</h5>
@@ -80,6 +80,42 @@ header("Location: login.php");
             </div>
         </div>
     </span>
+
+    <span class="flex pl-10 pr-5 my-10 mx-5  pb-20 items-center justify-between rounded-lg">
+        <div class="">
+            <h4 class=" font-bold leading-5 text-xl mb-1 dark:text-white" >Fatigue <br> Score</h4>
+            <h5 class=" w-32 font-bold  text-sm text-[#848484] leading-3 ">Score based on <br> surveys and health</h5>
+
+        </div>
+            
+        <div class="flex flex-col">
+            <div class="bg-[#f9f3f3] dark:bg-slate-900  mx-5 px-4 py-5  my-5 justify-center rounded-xl ">
+
+                <div class="myScores">
+                    <h5 class=" w-32 font-bold  text-sm text-[#848484] leading-3 text-center ">24/11/2022</h5>
+                    <h4 class=" text-3xl w-46 font-bold dark:text-white text-center ">19.17</h4>
+                </div>
+                <div class="myScores">
+                    <h5 class=" w-32 font-bold  text-sm text-[#848484] leading-3 text-center ">23/11/2022</h5>
+                    <h4 class=" text-3xl w-46 font-bold dark:text-white text-center ">19.03</h4>
+                </div>
+                <div class="myScores">
+                    <h5 class=" w-32 font-bold  text-sm text-[#848484] leading-3 text-center ">22/11/2022</h5>
+                    <h4 class=" text-3xl w-46 font-bold dark:text-white text-center ">19.56</h4>
+                </div>
+
+            </div>
+            
+            <div class="items-center justify-center flex ">
+                    <span onclick="currentScore(1)" id="firstDots" class=" dotScores bg-zinc-800 rounded-full w-2 h-2 mx-2"></span>
+                    <span onclick="currentScore(2)" class="dotScores bg-zinc-800 rounded-full w-2 h-2 mx-2"></span>
+                    <span onclick="currentScore(3)" class="dotScores bg-zinc-800 rounded-full w-2 h-2 mx-2"></span>
+            </div>
+        </div>
+    </span>
+
+
+    
     <?php 
     include('footer.php')
     ?>

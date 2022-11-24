@@ -51,7 +51,7 @@
             <div class=" flex justify-between">
             <h4 class=" w-46 font-bold text-sm text-[#848484] pt-1">About this application</h4>
             <h2 class="  w-36 font-bold  text-black text-center text-white bg-black content-center w-24 rounded-xl justify-center dark:text-white dark:bg-black">View</h2>
-            </div>
+        </div>
     </div>
 
     <?php 
