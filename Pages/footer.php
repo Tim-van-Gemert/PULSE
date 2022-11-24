@@ -31,6 +31,5 @@
         </div>
         <script src="app.js"></script>
         <script src="date.js"></script>
-        <script src="tinyslide.js"></script>
 
     </span>
