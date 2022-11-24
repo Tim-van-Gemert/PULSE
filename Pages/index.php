@@ -1,5 +1,6 @@
 <?php
 session_start();
+
 ?>
 <!doctype html>
 <html>
@@ -12,9 +13,10 @@ session_start();
     <link rel="icon" type="image/png" sizes="32x32" href="../Media/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../Media/favicon/favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 </head>
 
-<body class="dark:bg-black bg-white mt-2 overflow-hidden">
+<body class="dark:bg-black bg-white mt-2 overflow-hidden ">
     <nav class="flex flex-col ">
         <div class="justify-around w-screen flex">
             <img class="dark:invert h-[50%] w-[50%] " src="../Media/PULSE__logo__1.png">
