@@ -17,17 +17,16 @@ session_start();
 </head>
 
 <body class="dark:bg-black bg-white mt-2 overflow-hidden ">
-    <nav class="flex flex-col ">
-        <div class="justify-around w-screen flex">
-            <img class="dark:invert h-[50%] w-[50%] " src="../Media/PULSE__logo__1.png">
+    <nav class="flex flex-row mb-8 ">
+        <div class="ml-5 w-screen flex flex-row">
+            <img class="dark:invert h-5 w-auto " src="../Media/PULSE__logo__1.png">
+           
         </div>
-        <div class="justify-around w-screen mt-4 divide-y dark:divide-white  flex">
-            <h2 id="date" class="dark:text-white text-black  text-lg font-thin   "></h2>
+        <div class=" w-screen  mb-2 flex">
+            <h2 id="date" class="dark:text-white text-black  ml-6 text-lg font-thin   "></h2>
         </div>
     </nav>
-    <span class="flex items-center py-3  justify-center">
-        <div class="border-t-2 dark:text-white  text-slate-300 w-64"></div>
-    </span>
+
     <h2 class="mx-5 mt-1  dark:text-white text-3xl text-black  ">Quick stats</h2>
     <div class="bg-[#f9f3f3] mx-5 py-2 mt-4 rounded-xl   dark:bg-slate-900   ">
         <div class="ml-5 flex flex-row  gap-6">

@@ -1,8 +1,9 @@
-<nav class="flex flex-col ">
-        <div class="justify-around w-screen flex">
-            <img class="dark:invert h-[50%] w-[50%] " src="../Media/logo.png">
+<nav class="flex flex-row mb-8 ">
+        <div class="ml-5 w-screen flex flex-row">
+            <img class="dark:invert h-5 w-auto " src="../Media/PULSE__logo__1.png">
+           
         </div>
-        <div class="justify-around w-screen mt-4 divide-y dark:divide-white  flex">
-            <h2 id="date" class="dark:text-white text-black  text-lg font-thin   "></h2>
+        <div class=" w-screen  mb-2 flex">
+            <h2 id="date" class="dark:text-white text-black  ml-6 text-lg font-thin   "></h2>
         </div>
     </nav>

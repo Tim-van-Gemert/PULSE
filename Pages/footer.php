@@ -14,7 +14,7 @@
                 </div>
 
                 <div  class="flex-col flex items-center justify-center">
-                    <a href="survey.php" >
+                    <a href="surveys.php" >
                         <img src="../Media/Footer/circle.grid.cross.fill.png" class="pl-2 ">
                     <h5 class="items-center text-center text-sm dark:text-white text-slate-500 ">Surveys</h5>
                     </a>
