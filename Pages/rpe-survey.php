@@ -14,14 +14,14 @@
     <img src="../Media/iPhone 13.png" alt="Statusbar">
     <div class="flex m-6 justify-center flex-col">
         <p id="date" class="dark:text-white text-black text-lg font-thin"></p>
-        <h1 class="text-4xl font-bold pb-6 mt-1 tracking-wider">RPE Survey</h1>
+        <h1 class="text-5xl font-bold pb-6 mt-1 tracking-wider">RPE Survey</h1>
         <div class="drop-shadow-lg rounded-lg w-55 h-48 bg-slate-100 rounded-2xl">
 
         </div>
         <div class="drop-shadow-lg rounded-lg w-55 h-24 bg-slate-100 rounded-2xl mt-6">
 
         </div>
-        <div class="drop-shadow-lg rounded-lg w-55 h-32 bg-slate-100 rounded-2xl mt-6">
+        <div class="drop-shadow-lg rounded-lg w-55 h-24 bg-slate-100 rounded-2xl mt-6">
 
         </div>
 
