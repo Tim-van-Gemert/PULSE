@@ -13,7 +13,7 @@ session_start();
 
 </head>
 
-<body class="dark:bg-black bg-white mt-2 overflow-hidden ">
+<body id="call" class="dark:bg-black bg-white mt-2 overflow-hidden ">
 <?php include('header.php') ?>
     <h2 class="mx-5 mt-1  dark:text-white text-3xl text-black  ">Quick stats</h2>
     <div class="bg-[#f9f3f3] mx-5 py-2 mt-2 rounded-xl   dark:bg-slate-900   ">

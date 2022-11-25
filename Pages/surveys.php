@@ -8,7 +8,6 @@
     <title>Surveys</title>
     <link rel="manifest" href="site.webmanifest">
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="date.js" defer></script>
 </head>
 
 <body class="dark:bg-black dark:text-white bg-white overflow-hidden flex justify-center flex-col">

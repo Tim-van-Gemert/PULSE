@@ -8,7 +8,7 @@
                 <div  href="index.php" class="flex-col flex items-center justify-center">
                 
 
-                    <a href="surveys.php" >
+                    <a href="surveys.php">
                         <img src="../Media/Footer/iconmonstr-idea-12-240.png" class="ml-1 dark:invert w-8">
                     <h5 class="items-center text-center text-sm dark:text-white text-slate-500 ">Surveys</h5>
                     </a>
