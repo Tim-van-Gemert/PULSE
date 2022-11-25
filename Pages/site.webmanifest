@@ -16,6 +16,7 @@
         }
     ],
     "theme_color": "white",
+    "background_color": "white", 
     "display": "fullscreen",
     "orientation": "portrait"
 
