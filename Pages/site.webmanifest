@@ -1,7 +1,7 @@
 {
-    "start_url": "/",
+    "start_url": "/PULSE/Pages/",
     "name": "pulse",
-    "scope": "/",
+    "scope": "/PULSE/Pages/",
     "short_name": "pulse",
     "icons": [
         {
@@ -15,7 +15,7 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#0B1120",
+    "theme_color": "white",
     "display": "fullscreen",
     "orientation": "portrait"
 
